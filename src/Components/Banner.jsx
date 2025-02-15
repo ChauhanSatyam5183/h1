@@ -1,4 +1,4 @@
-import banner from "../../public/Banner.png";
+import banner from "../../src/assets/Banner.png";
 
 export default function Banner() {
   return (
