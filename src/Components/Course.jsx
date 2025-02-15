@@ -1,5 +1,5 @@
 import Cards from "./Cards"
-import list from "../../public/list.json"
+import list from "../assets/list.json"
 import { Link } from "react-router-dom";
 import { useEffect,useState } from "react";
 import axios from "axios";
@@ -20,7 +20,7 @@ function Course() {
         catch(error){
        console.log(error);
         }
-       }
+       } 
      getBook();
     },[])
   return (

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -13,7 +14,8 @@ export default function Freebook() {
   useEffect(() => {
     const getBooks = async () => {
       try {
-        const response = await axios.get("/api/books");
+        const response=null;
+        // const response = await axios.get("/api/books");
         console.log("response", response.data);
 
         // Set all books
@@ -26,7 +28,7 @@ export default function Freebook() {
         console.log(error);
       }
     };
-
+ 
     getBooks(); // Call the fetch function
   }, []); // Empty dependency array ensures it runs once after initial render
 
