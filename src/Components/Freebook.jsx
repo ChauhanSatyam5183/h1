@@ -28,7 +28,7 @@ export default function Freebook() {
         console.log(error);
       }
     };
- 
+  
     getBooks(); // Call the fetch function
   }, []); // Empty dependency array ensures it runs once after initial render
 
