@@ -1,6 +1,6 @@
-import Navbar from "../Components/navbar"
+import Navbar from "../Components/Navbar";
 import Banner from "../Components/Banner";
-import Footer from "../Components/footer";
+import Footer from "../Components/Footer";
 import Freebook from "../Components/Freebook";
 
 function Home() {
